@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    height: 100vh;
+}
+
+.row {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#psword {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+}
+
+#psword span {
+    font-size: 12px;
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
+  
